@@ -1,0 +1,12 @@
+[id="virt-reclaiming-persistent-volumes"]
+= Reclaiming persistent volumes
+include::modules/virt-document-attributes.adoc[]
+:context: virt-reclaiming-persistent-volumes
+toc::[]
+
+When a statically-provisioned persistent volume (PV) is unbound from a
+persistent volume claim (PVC), you must perform a procedure called
+_reclaimation_ before the PV can be bound to a new PVC. 
+
+include::modules/virt-about-reclaiming-persistent-volumes.adoc[leveloffset=+1]
+include::modules/virt-reclaiming-persistent-volumes.adoc[leveloffset=+1]
