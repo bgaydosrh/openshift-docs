@@ -27,6 +27,8 @@ In {VirtProductName} clusters installed using installer-provisioned infrastructu
 
 * To use proxy with {VirtProductName}, you must xref:../../operators/admin/olm-configuring-proxy-support.adoc#olm-configuring-proxy-support[configure proxy support in Operator Lifecycle Manager].
 
+* Before you migrate virtual machines to a cluster, ensure that all nodes in a single pool use the same type of CPU. For example, place nodes that use AMD processors in one pool and place nodes that use Intel processors in a different pool. Do not mix different CPU types in the same pool.
+
 {VirtProductName} works with {product-title} by default, but the following installation configurations are recommended:
 
 * Configure xref:../../monitoring/understanding-the-monitoring-stack.adoc#understanding-the-monitoring-stack[monitoring] in the cluster.
